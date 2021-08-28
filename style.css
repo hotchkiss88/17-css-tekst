@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --crl-primary-100: #fff;
+    --crl-primary-600: #0000ff;
+    --crl-accent-300: #ff0000;
+    --crl-primary-900: #000;
+}
+
+body {
+    background-color: var(--crl-primary-100);
+    text-align: center;
+    line-height: 2em;
+}
+
+h1 {
+    color: #0000ff;
+    margin: 20px 0 40px 0;
+}
+
+p {
+    font-size: 24px;
+    color: #000;
+}
+
+.red {
+    color: var(--crl-accent-300);
+}
